@@ -17,7 +17,8 @@ public class DiceRoller {
 
     /**
      * Rolls the given number and type of dice and returns a comma-separated list of the results
-     * @param numSides number of sides on the dice, ie 4, 6, 8, 10, 12, 20, 100, etc
+     *
+     * @param numSides      number of sides on the dice, ie 4, 6, 8, 10, 12, 20, 100, etc
      * @param numDiceToRoll number of dice to roll
      * @return comma-separated list of results
      */
@@ -50,7 +51,7 @@ public class DiceRoller {
     /**
      * Rolls the given number and type of dice and returns the sum of the results
      *
-     * @param numSides number of sides on the dice, ie 4, 6, 8, 10, 12, 20, 100, etc
+     * @param numSides      number of sides on the dice, ie 4, 6, 8, 10, 12, 20, 100, etc
      * @param numDiceToRoll number of dice to roll
      * @return sum of the results
      */
@@ -85,9 +86,9 @@ public class DiceRoller {
     /**
      * Rolls the given number and type of dice and returns the sum of the results and the given modifier
      *
-     * @param numSides number of sides on the dice, ie 4, 6, 8, 10, 12, 20, 100, etc
+     * @param numSides      number of sides on the dice, ie 4, 6, 8, 10, 12, 20, 100, etc
      * @param numDiceToRoll number of dice to roll
-     * @param modifier number to add or subtract from the results
+     * @param modifier      number to add or subtract from the results
      * @return sum of the results and modifier
      */
     public int rollDiceAndSumModified(int numSides, int numDiceToRoll, int modifier) {
