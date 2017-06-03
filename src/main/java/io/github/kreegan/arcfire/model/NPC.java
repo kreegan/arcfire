@@ -56,6 +56,6 @@ public class NPC implements Generatable<NPC> {
 
     @Override
     public void generateOverride(Map<String, Object> parameters) {
-        generateInternal(parameters, this);
+        generateReflectively(parameters, this);
     }
 }

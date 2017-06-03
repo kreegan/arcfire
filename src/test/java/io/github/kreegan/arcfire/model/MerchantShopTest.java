@@ -8,26 +8,29 @@ import java.util.List;
 import java.util.Map;
 
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 /**
- * Unit test for MagicShop
+ * Unit test for MerchantShop
  */
-public class MagicShopTest {
+public class MerchantShopTest {
 
     @Test
     public void generateOverride_happyPath() {
 
-        MagicShop magicShop = new MagicShop();
+        MerchantShop merchantShop = new MerchantShop();
         Map<String, Object> parameters = new HashMap<>();
         List<InventoryItem> inventory = new ArrayList<>();
         List<NPC> proprietors = new ArrayList<>();
         parameters.put("inventory", inventory);
         parameters.put("proprietors", proprietors);
+        parameters.put("hasMagicItems", Boolean.TRUE);
 
         // Unit under test
-        magicShop.generateOverride(parameters);
+        merchantShop.generateOverride(parameters);
 
-        assertNotNull(magicShop.getInventory());
-        assertNotNull(magicShop.getProprietors());
+        assertNotNull(merchantShop.getInventory());
+        assertNotNull(merchantShop.getProprietors());
+        assertTrue(merchantShop.getHasMagicItems());
     }
 }

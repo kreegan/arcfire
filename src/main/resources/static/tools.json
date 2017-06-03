@@ -1,0 +1,157 @@
+[
+ {
+   "Item": "Alchemist’s supplies",
+   "Cost": "50 gp",
+   "Weight": "8 lb."
+ },
+ {
+   "Item": "Brewer’s supplies",
+   "Cost": "20 gp",
+   "Weight": "9 lb."
+ },
+ {
+   "Item": "Calligrapher’s supplies",
+   "Cost": "10 gp",
+   "Weight": "5 lb."
+ },
+ {
+   "Item": "Carpenter’s tools",
+   "Cost": "8 gp",
+   "Weight": "6 lb."
+ },
+ {
+   "Item": "Cartographer’s tools",
+   "Cost": "15 gp.",
+   "Weight": "6 lb."
+ },
+ {
+   "Item": "Cobbler’s tools",
+   "Cost": "5 gp",
+   "Weight": "5 lb."
+ },
+ {
+   "Item": "Cook’s utensils",
+   "Cost": "1 gp",
+   "Weight": "8 lb."
+ },
+ {
+   "Item": "Glassblower’s tools",
+   "Cost": "30 gp",
+   "Weight": "5 lb."
+ },
+ {
+   "Item": "Jeweler’s tools",
+   "Cost": "25 gp",
+   "Weight": "2 lb."
+ },
+ {
+   "Item": "Leatherworker’s tools",
+   "Cost": "5 gp",
+   "Weight": "5 lb."
+ },
+ {
+   "Item": "Mason’s tools",
+   "Cost": "10 gp",
+   "Weight": "8 lb."
+ },
+ {
+   "Item": "Painter’s supplies",
+   "Cost": "10 gp",
+   "Weight": "5 lb."
+ },
+ {
+   "Item": "Potter’s tools",
+   "Cost": "10 gp",
+   "Weight": "3 lb."
+ },
+ {
+   "Item": "Smith’s tools",
+   "Cost": "20 gp",
+   "Weight": "8 lb."
+ },
+ {
+   "Item": "Tinker’s tools",
+   "Cost": "50 gp",
+   "Weight": "10 lb."
+ },
+ {
+   "Item": "Weaver’s tools",
+   "Cost": "1 gp",
+   "Weight": "5 lb."
+ },
+ {
+   "Item": "Woodcarver’s tools",
+   "Cost": "1 gp",
+   "Weight": "5 lb."
+ },
+ {
+   "Item": "Dice set",
+   "Cost": "1 sp",
+   "Weight": "—"
+ },
+ {
+   "Item": "Playing card set",
+   "Cost": "5 sp",
+   "Weight": "—"
+ },
+ {
+   "Item": "Bagpipes",
+   "Cost": "30 gp",
+   "Weight": "6 lb."
+ },
+ {
+   "Item": "Drum",
+   "Cost": "6 gp",
+   "Weight": "3 lb."
+ },
+ {
+   "Item": "Dulcimer",
+   "Cost": "25 gp",
+   "Weight": "10 lb."
+ },
+ {
+   "Item": "Flute",
+   "Cost": "2 gp",
+   "Weight": "1 lb."
+ },
+ {
+   "Item": "Lute",
+   "Cost": "35 gp",
+   "Weight": "2 lb."
+ },
+ {
+   "Item": "Lyre",
+   "Cost": "30 gp",
+   "Weight": "2 lb."
+ },
+ {
+   "Item": "Horn",
+   "Cost": "3 gp",
+   "Weight": "2 lb."
+ },
+ {
+   "Item": "Pan flute",
+   "Cost": "12 gp",
+   "Weight": "2 lb."
+ },
+ {
+   "Item": "Shawm",
+   "Cost": "2 gp",
+   "Weight": "1 lb."
+ },
+ {
+   "Item": "Viol",
+   "Cost": "30 gp",
+   "Weight": "1 lb."
+ },
+ {
+   "Item": "Navigator’s tools",
+   "Cost": "25 gp",
+   "Weight": "2 lb."
+ },
+ {
+   "Item": "Thieves’ tools",
+   "Cost": "25 gp",
+   "Weight": "1 lb."
+ }
+]

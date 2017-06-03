@@ -15,7 +15,7 @@ public interface Generatable<T> {
     Logger LOGGER = Logger.getLogger(Generatable.class);
 
     /**
-     * Generate method that is called by a RandomGenerator. In most cases will act as a pass thru generateInternal, but
+     * Generate method that is called by a RandomGenerator. In most cases will act as a pass thru generateReflectively, but
      * that behavior can also be overridden when needed
      *
      * @param parameters parameter map to populate the Generatable from
@@ -28,7 +28,7 @@ public interface Generatable<T> {
      * @param parameters parameter map to populate the Generatable from
      * @param instance   Generatable instance
      */
-    default void generateInternal(Map<String, Object> parameters, T instance) {
+    default void generateReflectively(Map<String, Object> parameters, T instance) {
 
         for (Field field : instance.getClass().getDeclaredFields()) {
             String fieldName = field.getName();

@@ -1,0 +1,119 @@
+[
+ {
+   "Armor": "Padded",
+   "Armor Class (AC)": "11 + Dex modifier",
+   "Strength": "—",
+   "Stealth": "Disadvantage",
+   "Weight": "8 lb.",
+   "Cost": "5 gp",
+   "Category": "Light"
+ },
+ {
+   "Armor": "Leather",
+   "Armor Class (AC)": "11 + Dex modifier",
+   "Strength": "—",
+   "Stealth": "—",
+   "Weight": "10 lb.",
+   "Cost": "10 gp",
+   "Category": "Light"
+ },
+ {
+   "Armor": "Studded Leather",
+   "Armor Class (AC)": "12 + Dex modifier",
+   "Strength": "—",
+   "Stealth": "—",
+   "Weight": "13 lb.",
+   "Cost": "45 gp",
+   "Category": "Light"
+ },
+ {
+   "Armor": "Hide",
+   "Armor Class (AC)": "12 + Dex modifier (max 2)",
+   "Strength": "—",
+   "Stealth": "—",
+   "Weight": "12 lb.",
+   "Cost": "10 gp",
+   "Category": "Medium"
+ },
+ {
+   "Armor": "Chain Shirt",
+   "Armor Class (AC)": "13 + Dex modifier (max 2)",
+   "Strength": "—",
+   "Stealth": "—",
+   "Weight": "20 lb.",
+   "Cost": "50 gp",
+   "Category": "Medium"
+ },
+ {
+   "Armor": "Scale Mail",
+   "Armor Class (AC)": "14 + Dex modifier (max 2)",
+   "Strength": "—",
+   "Stealth": "Disadvantage",
+   "Weight": "45 lb.",
+   "Cost": "50 gp",
+   "Category": "Medium"
+ },
+ {
+   "Armor": "Breastplate",
+   "Armor Class (AC)": "14 + Dex modifier (max 2)",
+   "Strength": "—",
+   "Stealth": "—",
+   "Weight": "20 lb.",
+   "Cost": "400 gp",
+   "Category": "Medium"
+ },
+ {
+   "Armor": "Half Plate",
+   "Armor Class (AC)": "15 + Dex modifier (max 2)",
+   "Strength": "—",
+   "Stealth": "Disadvantage",
+   "Weight": "40 lb.",
+   "Cost": "750 gp",
+   "Category": "Medium"
+ },
+ {
+   "Armor": "Ring Mail",
+   "Armor Class (AC)": "14",
+   "Strength": "—",
+   "Stealth": "Disadvantage",
+   "Weight": "40 lb.",
+   "Cost": "30 gp",
+   "Category": "Heavy"
+ },
+ {
+   "Armor": "Chain Mail",
+   "Armor Class (AC)": "16",
+   "Strength": "Str 13",
+   "Stealth": "Disadvantage",
+   "Weight": "55 lb.",
+   "Cost": "75 gp",
+   "Category": "Heavy"
+ },
+ {
+   "Armor": "Splint",
+   "Armor Class (AC)": "17",
+   "Strength": "Str 15",
+   "Stealth": "Disadvantage",
+   "Weight": "60 lb.",
+   "Cost": "200 gp",
+   "Category": "Heavy"
+ },
+ {
+   "Armor": "Plate",
+   "Armor Class (AC)": "18",
+   "Strength": "Str 15",
+   "Stealth": "Disadvantage",
+   "Weight": "65 lb.",
+   "Cost": "1,500 gp",
+   "Category": "Heavy"
+ },
+ {
+   "Armor": "Shield",
+   "Armor Class (AC)": "2",
+   "Strength": "—",
+   "Stealth": "—",
+   "Weight": "6 lb.",
+   "Cost": "10 gp",
+   "Category": "Shield"
+ }
+]

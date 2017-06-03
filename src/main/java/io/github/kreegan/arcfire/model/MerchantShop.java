@@ -6,12 +6,13 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Object representing a magic shop with inventory and proprietor(s)
+ * Object representing a merchant shop with inventory and proprietor(s)
  */
-public class MagicShop implements Generatable<MagicShop> {
+public class MerchantShop implements Generatable<MerchantShop> {
 
     private List<InventoryItem> inventory;
     private List<NPC> proprietors;
+    private Boolean hasMagicItems;
 
     public List<InventoryItem> getInventory() {
         return inventory;
@@ -29,8 +30,16 @@ public class MagicShop implements Generatable<MagicShop> {
         this.proprietors = proprietors;
     }
 
+    public Boolean getHasMagicItems() {
+        return hasMagicItems;
+    }
+
+    public void setHasMagicItems(Boolean hasMagicItems) {
+        this.hasMagicItems = hasMagicItems;
+    }
+
     @Override
     public void generateOverride(Map<String, Object> parameters) {
-        generateInternal(parameters, this);
+        generateReflectively(parameters, this);
     }
 }
