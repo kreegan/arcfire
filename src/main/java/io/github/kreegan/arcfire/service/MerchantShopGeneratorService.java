@@ -30,9 +30,8 @@ public class MerchantShopGeneratorService {
             // TODO add magic item functionality, likely not just one file but multiple
         }
         Map<String, Object> parameters = buildParameters(advGearNode, armorNode, toolsNode, weaponsNode);
-        MerchantShop merchantShop = merchantShopRandomGenerator.generateWithParams(parameters, MerchantShop.class);
 
-        return merchantShop;
+        return merchantShopRandomGenerator.generateWithParams(parameters, MerchantShop.class);
     }
 
     private Map<String, Object> buildParameters(JsonNode... seedData) {
