@@ -1,7 +1,5 @@
 package io.github.kreegan.arcfire.web;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.kreegan.arcfire.service.MerchantShopGeneratorService;
 import io.github.kreegan.arcfire.util.JSONUtil;
 import org.springframework.http.MediaType;

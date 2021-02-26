@@ -1,6 +1,7 @@
 package io.github.kreegan.arcfire.generator;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 
@@ -8,8 +9,7 @@ import java.util.Map;
  * Class that randomly generates an object that implements the Generatable interface
  */
 public class RandomGenerator<T extends Generatable> {
-
-    private static final Logger LOGGER = Logger.getLogger(RandomGenerator.class);
+    Logger logger = LoggerFactory.getLogger(RandomGenerator.class);
 
     public <T extends Generatable> T generateWithParams(Map<String, Object> parameters, Class<T> generatedClass) {
 
@@ -18,7 +18,7 @@ public class RandomGenerator<T extends Generatable> {
             generated.generateOverride(parameters);
             return generated;
         } catch (InstantiationException | IllegalAccessException e) {
-            LOGGER.error(e);
+            logger.error(e.getMessage(), e);
         }
 
         return null;

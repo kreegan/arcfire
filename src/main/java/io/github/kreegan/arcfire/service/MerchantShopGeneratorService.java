@@ -14,10 +14,10 @@ import java.util.Map;
 @Component
 public class MerchantShopGeneratorService {
 
-    public static final String ADVENTURING_GEAR_FILE = "resources/static/adventuring_gear.json";
-    public static final String ARMOR_FILE = "resources/static/armor.json";
-    public static final String TOOLS_FILE = "resources/static/tools.json";
-    public static final String WEAPONS_FILE = "resources/static/weapons.json";
+    public static final String ADVENTURING_GEAR_FILE = "src/main/resources/static/adventuring_gear.json";
+    public static final String ARMOR_FILE = "src/main/resources/static/armor.json";
+    public static final String TOOLS_FILE = "src/main/resources/static/tools.json";
+    public static final String WEAPONS_FILE = "src/main/resources/static/weapons.json";
 
     public MerchantShop generateMerchantShop(Boolean hasMagicItems) {
 

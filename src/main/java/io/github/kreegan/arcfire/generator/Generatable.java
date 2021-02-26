@@ -1,6 +1,7 @@
 package io.github.kreegan.arcfire.generator;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.ReflectionUtils;
 
 import java.lang.reflect.Field;
@@ -12,7 +13,8 @@ import java.util.Map;
  * Interface for objects that can be generated
  */
 public interface Generatable<T> {
-    Logger LOGGER = Logger.getLogger(Generatable.class);
+
+    Logger logger = LoggerFactory.getLogger(Generatable.class);
 
     /**
      * Generate method that is called by a RandomGenerator. In most cases will act as a pass thru generateReflectively, but
@@ -32,14 +34,14 @@ public interface Generatable<T> {
 
         for (Field field : instance.getClass().getDeclaredFields()) {
             String fieldName = field.getName();
-            if (parameters.containsKey(fieldName)) {
+            if (parameters != null && parameters.containsKey(fieldName)) {
                 try {
                     String firstCharacter = fieldName.substring(0, 1);
                     String accessorMethod = "set" + fieldName.replaceFirst(firstCharacter, firstCharacter.toUpperCase());
                     Method accessor = ReflectionUtils.findMethod(instance.getClass(), accessorMethod, null);
                     accessor.invoke(instance, parameters.get(fieldName));
                 } catch (IllegalAccessException | InvocationTargetException e) {
-                    LOGGER.error("Unable to reflectively set field: " + fieldName, e);
+                    logger.error("Unable to reflectively set field: " + fieldName, e);
                 }
             }
         }
